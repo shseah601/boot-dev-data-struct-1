@@ -1,4 +1,4 @@
-def bubble_sort(nums):
+def bubble_sort_pseudocode(nums):
     swapping = True
     end = len(nums)
 
@@ -15,7 +15,7 @@ def bubble_sort(nums):
     return nums
 
 
-def bubble_sort_for_loop(nums):
+def bubble_sort(nums):
     n = len(nums)
 
     for i in range(n):

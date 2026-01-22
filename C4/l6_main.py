@@ -8,9 +8,6 @@ def merge_sort(nums):
 
     return merge(left, right)
 
-
-
-
 def merge(first, second):
 
     result = []
